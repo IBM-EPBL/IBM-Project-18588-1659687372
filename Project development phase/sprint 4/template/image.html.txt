@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en" dir="ltr"> 
+ <head> <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script> 
+ <meta charset="UTF-8"> 
+ <title>Nutrient identification</title>
+ <link rel="stylesheet" href="C:\Users\sweth\OneDrive\Documents\registration.css"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ </head> 
+<body background="C:\Users\sweth\Downloads\background.jfif"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="C:\Users\sweth\OneDrive\Documents\registration.css">
+  
+
+
+  
+ <div class="container">
+    
+    <center>
+<h3 class="btn btn-default heading">NUTRIENT IDENTIFICATION</h3>
+      <br><br>
+
+      <p style="font-size: 22px;">Upload a picture of a food </p>
+
+<label>Camera view </label>
+
+<div id="camera">
+<style>
+camera{
+      display: block;
+      margin: 0 auto;
+      margin-top: 1rem;
+    }
+
+camera{
+      border-width: 8px;
+      border-style: solid;
+      border-color: #006100;
+    }</style>
+	</div>
+<br>
+<br>
+<div id="result"></div>
+<br>
+<br>
+    
+    
+ <button onclick="take_snapshot();"class="btn btn-info">CAPTURE IMAGE</button>
+ <br>
+ <br>
+ <button onclick="take_snapshot();"class="btn btn-info">RETAKE IMAGE</button>
+ <br>
+ <br>
+ <button onclick="check();" class="btn btn-success">Identify Nutrients</button>
+ <br>
+ <br>
+    </center>
+
+  </div>
+<script src="C:\Users\sweth\OneDrive\Documents\new 1.js"></script>
+
+  </body>
+</html>
